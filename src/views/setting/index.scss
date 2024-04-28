@@ -1,0 +1,44 @@
+.main {
+  padding: 0;
+  .el-header {
+    // border换成shadow
+    border-bottom: 1px solid #ccc;
+    line-height: 60px;
+    font-weight: 500;
+    font-size: 18px;
+  }
+  .el-container {
+    height: calc(100% - 60px);
+    .el-aside {
+      border-right: 1px solid #ccc;
+      width: 200px;
+      padding: 10px;
+      ul {
+        margin-top: 10px;
+        font-size: 14px;
+        .setting-item {
+          cursor: pointer;
+          margin-bottom: 10px;
+          padding-left: 20px;
+          display: flex;
+          align-items: center;
+          height: 35px;
+          border-radius: 5px;
+          margin: 8px 2px;
+          &.selectd {
+            background-color: #f5f5f5;
+            font-weight: 400;
+            color: #1890ff;
+          }
+        }
+      }
+    }
+    .el-main {
+      padding: 0px;
+      .el-header {
+        font-size: 20px;
+        font-weight: 600;
+      }
+    }
+  }
+}

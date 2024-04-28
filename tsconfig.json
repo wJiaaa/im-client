@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "useDefineForClassFields": true,
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "strict": true,
+    "jsx": "preserve",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "allowJs": true,
+    "esModuleInterop": true,
+    "lib": ["ESNext", "DOM"],
+    "skipLibCheck": true,
+    "noEmit": true,
+    // "types": ["element-plus/global","cypress"],
+    "types": ["element-plus/global"],
+    "baseUrl": "./",
+    "paths": {
+      "@": ["src"],
+      "@/*": ["src/*"]
+    }
+  },
+  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue", "vite.config.ts", "**/*.d.ts"],
+  "exclude": ["node_modules", "dist", "**/*.js", "cypress", "src/**/*.cy.ts"],
+  "references": [{ "path": "./tsconfig.node.json" }]
+}

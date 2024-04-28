@@ -1,0 +1,8 @@
+dist/
+*.d.ts
+src/assets
+src/styles
+node_modules
+electron/
+cypress/
+cypress.config.ts

@@ -1,0 +1,26 @@
+.message-send {
+  height: 230px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid #f4f5f9;
+  position: relative;
+  background-color: #fff;
+  .textarea {
+    height: 142px;
+  }
+  .message-bottom {
+    padding: 10px 0;
+    .send-button-box {
+      padding: 0 20px;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      color: #aaa;
+      font-size: 14px;
+      span {
+        margin-right: 10px;
+      }
+    }
+  }
+}

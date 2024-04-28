@@ -1,0 +1,73 @@
+:root {
+  font-family: -apple-system, 'Noto Sans', 'Helvetica Neue', Helvetica, 'Nimbus Sans L', Arial, 'Liberation Sans',
+    'PingFang SC', 'Hiragino Sans GB', 'Noto Sans CJK SC', 'Source Han Sans SC', 'Source Han Sans CN', 'Microsoft YaHei',
+    'Wenquanyi Micro Hei', 'WenQuanYi Zen Hei', 'ST Heiti', SimHei, 'WenQuanYi Zen Hei Sharp', sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  color-scheme: light dark;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  height: 100%;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+}
+
+#app,
+.app,
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+
+::-webkit-scrollbar {
+  width: 6px !important;
+  height: 8px !important;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+  border-radius: 1em;
+}
+
+@font-face {
+  font-family: 'RobotoBase', sans-serif;
+  src: url('../src/assets/font/Roboto-base.ttf') format('ttf');
+}
+
+.inoneline {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.intwoline {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  -ms-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+}
